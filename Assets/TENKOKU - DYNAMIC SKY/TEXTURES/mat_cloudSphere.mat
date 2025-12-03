@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: mat_cloudSphere
-  m_Shader: {fileID: 4800000, guid: aedaf62d9b35c3848abe26ad8ae5d779, type: 3}
+  m_Shader: {fileID: 4800000, guid: 0d59beb3bb257024fb39a58ff6a56dd6, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -16,7 +16,7 @@ Material:
   m_LightmapFlags: 5
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 2605
   stringTagMap: {}
   disabledShaderPasses: []
   m_LockedProperties: 
@@ -79,10 +79,6 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _SkyTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
     - _Altitude0: 1400
@@ -122,7 +118,6 @@ Material:
     - _SunSize: 0.008
     - _UVSec: 0
     - _ZWrite: 1
-    - _dispStrength: 1
     - _overBright: 0
     - aurDefScale: 1.53
     - aurNormScale: 0.884
@@ -132,12 +127,10 @@ Material:
     - aurSpd: 0.15
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _CoronaColor: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _GroundColor: {r: 0.36899996, g: 0.34899998, b: 0.34099993, a: 1}
     - _Scroll1: {r: 0.003846657, g: 0, b: -0.00067827036, a: 0}
     - _Scroll2: {r: 0.030773256, g: 0, b: -0.005426163, a: 0}
     - _SkyTint: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    - _TintColor: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
